@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #e8e5e2;
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  max-width: 150rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 2rem;
+}
+
+.grid__two {
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.brand__logos {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.volkswagen {
+  width: 7rem;
+  height: 7rem;
+}
+
+.nike {
+  width: 18rem;
+  height: 7rem;
+}
+
+.dyson {
+  height: 7rem;
+  width: 18rem;
+}
+
+.rossmann {
+  height: 20rem;
+  width: 35rem;
+}
+
+.screen__two__bottom {
+  max-width: 150rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.screen__four__left,
+.screen__four__right {
+  display: flex;
+}
+
+.screen__four__right {
+  margin-left: -8rem;
+}
+
+.screen__four__right__exmp {
+  margin-top: 20rem;
+}
+
+.screen__six {
+  display: flex;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer__logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.top__info {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin-top: 3rem;
+}
+
+.footer {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  padding-top: 10rem;
+}
+
+.app__logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5rem;
+}
+
+.ion__icon {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
